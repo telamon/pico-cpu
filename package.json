@@ -1,0 +1,36 @@
+{
+  "name": "pico-cpu",
+  "version": "0.1.0",
+  "description": "Stateful blockchain processor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape test.js",
+    "debug": "node inspect $(npm bin)/tape test.js",
+    "prepublishOnly": "standard && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/telamon/pico-cpu"
+  },
+  "author": "Tony Ivanov",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/telamon/pico-cpu"
+  },
+  "homepage": "https://github.com/telamon/pico-cpu",
+  "devDependencies": {
+    "memory-level": "^1.0.0",
+    "standard": "^17.1.0",
+    "tape": "^5.6.3"
+  },
+  "peerDependencies": {
+    "picofeed": "^3.4.1",
+    "picorepo": "^1.4.5"
+  },
+  "dependencies": {
+    "picofeed": "^4.1.0",
+    "picorepo": "^2.0.3"
+  }
+}
