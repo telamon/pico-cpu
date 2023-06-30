@@ -30,6 +30,7 @@
     "picorepo": "^1.4.5"
   },
   "dependencies": {
+    "cbor-x": "^1.5.3",
     "picofeed": "^4.1.0",
     "picorepo": "^2.0.3"
   }
